@@ -1,0 +1,460 @@
+:root {
+    --web: #4d5ae5;
+    --studio: #2e2f42;
+    --studiolist: #6569c0;
+    --add: #434455;
+    --bodybc: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: var(--bodybc);
+}
+
+img {
+    display: block;
+}
+
+/*HEADER*/
+.liststyle {
+    list-style: none;
+}
+
+/*Logo*/
+.webstudio {
+    font-family: "Raleway", sans-serif;
+    font-weight:800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--web);
+    margin-right: 76px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.studiocolor {
+    color: #2e2f42;
+    margin-right: 76px;
+}
+
+/*Header Elements*/
+
+.headerstudio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0 24px;
+    
+}
+
+.list {
+    list-style-type:none;
+    display: flex;
+}
+
+.headerstudio:hover {
+        color: #404bbf;
+}
+
+.headerstudio:focus {
+        color: #404bbf;
+}
+
+/*Address*/
+.adstyle {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+}
+
+.adstyle:first-child {
+    margin-right: 40px;
+}
+
+.adstyle:last-child {
+    margin-right: 0px;
+}
+
+.concolor {color:#434455;}
+.concolor:hover {color:#404bbf}
+.concolor:focus {color:#404bbf}
+
+/*Header additional assignment three*/
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.displayflex {
+    display: flex;
+    
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.container-img {
+    display: block;
+}
+
+.navheader {    
+    align-items: center;
+    display: flex;
+    
+}
+
+.navulheader {
+    display: flex;
+    
+}
+
+navulheader.reversed {
+    flex-direction: row-reverse;
+}
+
+.navulheader-item {
+    margin-right: 40px;
+}
+
+.navulheader-item:last-child {
+    margin-right: 0;
+}
+
+/*Sections*/
+
+/*1st Section*/
+
+/*Hero*/
+.hero {
+    background-color: var(--studio);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    padding: 188px 0 188px;
+    padding-bottom: 188px;
+}
+
+.hone {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+}
+.herobutton {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    padding: 16px 32px;
+    align-items: flex-start;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+}
+
+.herobutton:hover {background-color:#404bbf;}
+.herobutton:focus {background-color:#404bbf;} 
+
+/*Section 2*/
+.sectionone {
+    width: 1128px;
+    height: 104px;
+    flex-shrink: 0;
+    padding: 120px 0 120px;
+}
+
+.headersectwo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--studio);
+    margin-bottom: 8px;
+}
+
+.parsectwo {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--add);
+
+}
+
+.sectwo {
+    display: flex;
+    gap: 24px;
+    width: 264px;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.sectwo-item {
+    flex-basis: calc((100% - 72px) / 4)
+}
+
+.hide {
+    display: none
+}
+
+/*Section 3*/
+.thirdsecheader {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--studio);
+    display: none;
+    margin-bottom: 72px;
+}
+
+.thirdsecheader. {
+    display:none
+}
+
+.secthree {
+    padding-bottom: 120px;
+}
+
+.secthree {
+    display: flex;
+}
+
+.secthree-item {
+    flex-basis: calc((100% - 3 * 16px) / 3)
+}
+
+.secthree-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+
+/*Section 4*/
+
+.fourthsection {
+    background-color: #F4F4FD;
+    padding: 120px 0 120px;
+}
+
+.fourthlist {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.fourthlist:not(:last-child) {
+    margin-right: 24px;
+}
+
+.secfourlistdiv {
+    padding: 32px 0;
+}
+
+.secfourlisthead {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.secfourpar {
+    text-align: center;
+}
+
+
+
+/*Footer*/
+.footerbackg {
+    background-color: #2e2f42;
+    padding: 100px 0 100px;
+}
+
+.pfooter {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.studiocolorb {
+    color: #F4F4FD;
+}
+
+.link-item {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+/*Portfolio*/
+
+/*Row 1*/
+
+.portbuttona {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px 12px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+
+.portbuttona:hover {
+    color:#FFFFFF;
+    background-color: #404bbf;
+    border: 1px solid transparent;
+}
+
+.portbuttona:focus {
+    color:#FFFFFF;
+    border: 1px solid transparent;
+    background-color: #404bbf;
+}
+
+/*Portfolio Header Block Elements*/
+.portheader {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.portcontainer {
+   display: flex;
+}
+
+.portnav {
+    align-items: center;
+    display: flex;
+}
+
+.portlogo {
+    margin-right: 76px;
+}
+
+.portmenu {
+    display: flex;
+}
+
+.portmenu-item {
+    margin-right: 40px;
+}
+
+.portmenu-item:last-child {
+    margin-right: 0;
+}
+
+.portadlist {
+    margin-right: 40px;
+}
+
+.portadlist:last-child {
+    margin-right: 0;
+}
+
+
+/*Row 2*/
+.portimage {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portpar {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfooter {
+    background-color: #2e2f42;
+}
+
+.portstudio {
+    color: #f4f4fd;
+}
+
+
+/*Row 1 Block Elements*/
+
+.portsection {
+    padding: 96px 0 120px 0
+}
+
+.portfolioheader {
+    display: none;
+}
+
+.portlistmenu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.portlistmenu:last-child {
+    margin-right: 0;
+}
+
+
+.portlistmenu-item:last-child {
+    margin-right: 0;
+}
+
+
+/*Row 2 Block Elements*/
+
+.portlistpic {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.portlistpic-item {
+    margin-right: 24px;
+    margin-bottom: 48px;
+    width: ((100% - 48px) / 3);
+}
+
+.portlistpic-item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.portlistpic-item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.portdivtwo {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
