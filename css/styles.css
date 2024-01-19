@@ -310,9 +310,9 @@ img {
     font-size: 36px;
     line-height: 1.11;
     color: var(--studio);
-    margin-bottom: 72px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 72px;
 }
 
 .customer {
@@ -337,9 +337,25 @@ img {
     color:#8e8f99
 }
 
+.fiflink:hover {
+    color: #404bbf;
+    border-color: #404bbf;
+}
+
+.fiflink:focus {
+    color: #404bbf;
+    border-color: #404bbf;
+}
+
+.headerstudio:focus {
+    color: #404bbf;
+}
+
+
 .fifsvg {
     fill: currentColor;
 }
+
 
 /*Footer*/
 .footerbackg {
