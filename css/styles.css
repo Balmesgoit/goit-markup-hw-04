@@ -272,13 +272,12 @@ img {
 }
 
 .divsocial {
-    padding: 232x40;
+    gap: 24px;
 }
 .soclist {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
     list-style-type: none;
 }
 
