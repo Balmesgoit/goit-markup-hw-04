@@ -276,6 +276,7 @@ img {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    gap: 24px;
 }
 
 .soclist-item {
@@ -293,6 +294,13 @@ img {
     justify-content: center;
 }
 
+.soclistlink:hover {
+    background-color: #404bbf;
+}
+.soclistlink:focus {
+    background-color: #404bbf;
+}
+
 .svgsoc {
     fill: #F4F4FD;
 }
@@ -308,7 +316,7 @@ img {
     color: var(--studio);
     align-items: center;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .customer {
@@ -319,7 +327,7 @@ img {
 
 .custitem {
     height: 88px;
-    flex-basis: calc((100% - 6 * 120px) / 6)
+    width: calc(100%-(24px * 5 )/ 6)
 }
 
 .fiflink {
