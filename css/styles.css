@@ -250,8 +250,8 @@ img {
 }
 
 .fourthlist {
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
 }
 
 .fourthlist:not(:last-child) {
@@ -271,7 +271,15 @@ img {
     text-align: center;
 }
 
-
+.divsocial {
+    padding: 232x40;
+}
+.sociallist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
 
 /*Footer*/
 .footerbackg {
