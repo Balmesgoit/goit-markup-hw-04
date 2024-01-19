@@ -279,6 +279,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    list-style-type: none;
 }
 
 .soclist-item {
@@ -299,6 +300,46 @@ img {
 .svgsoc {
     fill: #F4F4FD;
 }
+
+/*Section 5*/
+.fifth {
+    padding: 120px 0 120px;
+}
+
+.fifthdiv {
+
+}
+
+.fifheader {
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--studio);
+    margin-bottom: 72px;
+    align-items: center;
+}
+
+.customer {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.custitem {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.fiflink {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#8e8f99
+}
+
 
 /*Footer*/
 .footerbackg {
