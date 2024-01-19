@@ -306,16 +306,13 @@ img {
     padding: 120px 0 120px;
 }
 
-.fifthdiv {
-
-}
-
 .fifheader {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     color: var(--studio);
     margin-bottom: 72px;
     align-items: center;
+    justify-content: center;
 }
 
 .customer {
@@ -325,8 +322,8 @@ img {
 }
 
 .custitem {
-    width: calc((100% - 120px) / 6);
     height: 88px;
+    flex-basis: calc((100% - 6 * 120px) / 6)
 }
 
 .fiflink {
@@ -340,6 +337,9 @@ img {
     color:#8e8f99
 }
 
+.fifsvg {
+    fill: currentColor;
+}
 
 /*Footer*/
 .footerbackg {
