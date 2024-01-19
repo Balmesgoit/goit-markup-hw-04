@@ -271,9 +271,6 @@ img {
     text-align: center;
 }
 
-.divsocial {
-    gap: 24px;
-}
 .soclist {
     display: flex;
     justify-content: center;
