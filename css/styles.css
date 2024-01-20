@@ -7,6 +7,11 @@
     --cloud: #f4f4fd;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -295,10 +300,7 @@ img {
     background-color: #4D5AE5;
 }
 
-.soclistlink:hover {
-    background-color: #404bbf;
-}
-
+.soclistlink:hover,
 .soclistlink:focus {
     background-color: #404bbf;
 }
@@ -318,7 +320,7 @@ img {
     color: var(--studio);
     align-items: center;
     justify-content: center;
-    padding-bottom: 72px;
+    gap: 72px;
 }
 
 .customer {
@@ -329,7 +331,7 @@ img {
 
 .custitem {
     height: 88px;
-    flex-basis: calc((100%-120px)/ 6);
+    width: 168px
 }
 
 .fiflink {
@@ -374,7 +376,7 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .studiocolorb {
