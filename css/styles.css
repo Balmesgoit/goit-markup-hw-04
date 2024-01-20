@@ -5,6 +5,7 @@
     --add: #434455;
     --bodybc: #FFFFFF;
     --cloud: #f4f4fd;
+    --ocean: #404bbf;
 }
 
 * {
@@ -298,12 +299,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4D5AE5;
+    background-color: var(--web);
 }
 
 .soclistlink:hover,
 .soclistlink:focus {
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 
 .svgsoc {
