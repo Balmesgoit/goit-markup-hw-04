@@ -318,7 +318,7 @@ img {
     color: var(--studio);
     align-items: center;
     justify-content: center;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 .customer {
@@ -329,7 +329,7 @@ img {
 
 .custitem {
     height: 88px;
-    width: calc((100%-120px)/ 6)
+    flex-basis: calc((100%-120px)/ 6);
 }
 
 .fiflink {
@@ -374,7 +374,7 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
 }
 
 .studiocolorb {
