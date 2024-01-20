@@ -321,7 +321,7 @@ img {
     color: var(--studio);
     align-items: center;
     justify-content: center;
-    gap: 72px;
+    margin-bottom: 72px;
 }
 
 .customer {
