@@ -292,17 +292,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.socbg {
     background-color: #4D5AE5;
 }
 
-.socbg:hover {
+.soclistlink:hover {
     background-color: #404bbf;
 }
 
-.socbg:focus {
+.soclistlink:focus {
     background-color: #404bbf;
 }
 
