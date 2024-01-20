@@ -4,7 +4,7 @@
     --studiolist: #6569c0;
     --add: #434455;
     --bodybc: #FFFFFF;
-    --cloud: #f4f4fd
+    --cloud: #f4f4fd;
 }
 
 a {
@@ -107,8 +107,8 @@ img {
 
 
 .concolor {color:#434455;}
-.concolor:hover {color:#404bbf}
-.concolor:focus {color:#404bbf}
+.concolor:hover {color:#404bbf;}
+.concolor:focus {color:#404bbf;}
 
 /*Sections*/
 /*1st Section*/
@@ -185,7 +185,7 @@ img {
 
 
 .item {
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 /*ICON*/
@@ -235,7 +235,7 @@ img {
 }
 
 .secthree-item {
-    flex-basis: calc((100% - 3 * 16px) / 3)
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .secthree-item:not(:last-child) {
@@ -252,7 +252,7 @@ img {
 
 .fourthlist {
     background: var(--WHITE, #FFF);    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .fourthlist:not(:last-child) {
@@ -341,7 +341,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#8e8f99
+    color:#8e8f99;
 }
 
 .fiflink:hover {
@@ -539,7 +539,7 @@ img {
 /*Row 1 Block Elements*/
 
 .portsection {
-    padding: 96px 0 120px 0
+    padding: 96px 0 120px 0;
 }
 
 .portfolioheader {
