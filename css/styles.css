@@ -302,8 +302,8 @@ img {
     background-color: var(--web);
 }
 
-.soclist-item:focus,
-.soclist-item .soclistlink:hover {
+.soclistlink:focus,
+.soclistlink:hover {
     background-color: var(--ocean);
 }
 
