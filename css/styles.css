@@ -121,6 +121,8 @@ img {
 
 /*Hero*/
 .hero {
+    display: flex;
+    flex-direction: column;;
     background-color: var(--studio);
     flex-shrink: 0;
     padding-top:188px;
@@ -128,10 +130,15 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimage.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(/images/heroimage.jpg);
     max-width: 1440px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .hone {
@@ -141,6 +148,8 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    font-weight: 700;
+    margin-bottom: 48px;
 }
 .herobutton {
     font-family: "Roboto", sans-serif;
