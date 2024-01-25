@@ -303,7 +303,7 @@ img {
 }
 
 .soclist-item:focus,
-.soclist-item:hover .soclistlink {
+.soclist-item .soclistlink:hover {
     background-color: var(--ocean);
 }
 
